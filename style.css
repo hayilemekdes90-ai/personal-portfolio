@@ -22,13 +22,20 @@ body
 p{color: white;}
 nav{
     display:flex;
+    gap:9px;
+   
+   justify-content: space-between;
 }
-a{gap: 16px;}
+a{gap: 16px;
+}
 img{
       height:100;
     width: 30px;
-    
+    border-radius: 50%;
+    border: 4px rgb(192, 165, 165);
 }
 #i{
     box-shadow: 40px 40px 40px 40px rgb(196, 151, 151);
+}
+i{color: white;
 }
