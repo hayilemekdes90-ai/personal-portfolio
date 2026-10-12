@@ -1,0 +1,34 @@
+body
+{justify-items: center;
+    align-items: center;}
+#continer{
+    
+    background:linear-gradient(to left,black,rgb(59, 53, 46));
+    height:300px;
+    width:20%;
+}
+
+#phdiv{display: flex;}
+#photh{
+    height: 40;
+    width: 100px;
+    border-radius: 50%;
+}
+#name{color: white;
+    
+    font-size: 40px;
+    text-decoration-line: underline;
+}
+p{color: white;}
+nav{
+    display:flex;
+}
+a{gap: 16px;}
+img{
+      height:100;
+    width: 30px;
+    
+}
+#i{
+    box-shadow: 40px 40px 40px 40px rgb(196, 151, 151);
+}
