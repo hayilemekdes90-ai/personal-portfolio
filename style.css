@@ -4,8 +4,10 @@ body
 #continer{
     
     background:linear-gradient(to left,black,rgb(59, 53, 46));
-    height:300px;
+    height:280px;
     width:20%;
+    border: 5px groove;
+    border-radius: 25px;
 }
 
 #phdiv{display: flex;}
@@ -13,6 +15,7 @@ body
     height: 40;
     width: 100px;
     border-radius: 50%;
+
 }
 #name{color: white;
     
@@ -23,19 +26,19 @@ p{color: white;}
 nav{
     display:flex;
     gap:9px;
-   
    justify-content: space-between;
 }
-a{gap: 16px;
+a{gap: 10px;
 }
 img{
       height:100;
     width: 30px;
     border-radius: 50%;
-    border: 4px rgb(192, 165, 165);
+    border: 4px groove rgb(192, 165, 165);
 }
 #i{
     box-shadow: 40px 40px 40px 40px rgb(196, 151, 151);
 }
-i{color: white;
+input{color: white;
+    background-color: black;
 }
