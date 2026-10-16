@@ -1,0 +1,11 @@
+let name=document.getElementById("nam").value;
+let subject=document.getElementById("sub").value;
+let section=document.getElementById("section").value;
+let age=document.getElementById("age").value;
+let mark =document.getElementById("mark").value;
+let sumit=document.getElementById("but");
+let dep=document.getElementById("dp").value;
+
+sumit.onclick=function(){
+      document.getElementById("kos").textContent=subject;
+}

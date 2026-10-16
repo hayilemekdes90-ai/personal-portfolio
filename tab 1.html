@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)http://127.0.0.1:5500/studentmangment.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tab 1</title>
+    <link rel="stylesheet" href="./tab 1_files/stayll.css">
+</head>
+<body><header> <div><h1><i id="kos"></i> SMART Student Management System   </h1></div>
+    <div><nav>
+        <a href="http://127.0.0.1:5500/home">home</a>
+        <a href="http://127.0.0.1:5500/studentmangment.html">Student bakground</a>
+        <a href="http://127.0.0.1:5500/studentmangment.html">home work</a>
+    </nav></div><div><input type="button" value="log in" id="log"></div></header>
+   
+    <input type="text" id="search" placeholder="serch your reqesst">
+    <!--table-->
+    <div id="logfo">
+        <h1>student form</h1>
+<div class="ng"><input type="text" placeholder="name" id="nam">
+<input type="number" name="age" id="age" placeholder="age" itemid="age"></div>
+<div class="ng"><input type="text" placeholder="subject" id="sub">
+<select id="dp">
+    <option value="so">softwer enjenering</option>
+    <option value="cs">computer </option>
+    <option value="it">IT</option>
+</select></div>
+
+<div class="ng"><input type="text" placeholder="section" id="section">
+<input type="number" id="mark" placeholder="mark"></div>
+    <div><input type="button" value="sumit" id="but"></div>
+    </div>
+
+    <table>
+<tbody><tr>
+    <td colspan="8"> all amu tec student html subject mangment system</td>
+</tr>
+<tr>
+    <th id="name">name</th>
+    <th id="ago">age</th>
+    <th id="de">department</th>
+    <th id="su">subject</th>
+    <th id="sc">section</th>
+    <th id="ma">mark</th>
+    <th id="mg">gread</th>
+    <th id="mp">pass/fail</th>
+    
+</tr>
+
+
+
+
+
+    </tbody></table>
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+<script src="./tab 1_files/do.js.download"></script>
+</body></html>

@@ -1,0 +1,31 @@
+
+header{
+    display: flex;
+    justify-content:space-between;
+}
+nav{
+    gap: 40px;
+}
+a{gap: 100px;
+font-size: 20px;
+    text-decoration: none;
+}
+h1{
+    
+}
+tr,th,td{
+    border: 3px black solid;
+    border-collapse: collapse;
+    
+}
+#logfo{
+    margin-left: 70%;
+}
+.ng{display: flex;}
+input{
+    margin: 8px
+}
+fieldset{
+height: 200px;
+    width: 400px;
+}
